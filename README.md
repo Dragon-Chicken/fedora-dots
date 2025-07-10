@@ -13,6 +13,7 @@ other-locations is dots/configs outside of ~/.config
 * Font: MapleMono NL NF CN
 * Fetch: FastFetch
 * Audio: PipeWire
+* Browser: Zen-Browser
 
 # others
 * picom
