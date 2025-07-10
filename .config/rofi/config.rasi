@@ -1,0 +1,84 @@
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{icon}{name}";
+  font: "JetBrains Mono Regular 12";
+  modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+@theme "/dev/null"
+
+//* {
+//	bg: #1f1b23;
+//	bg-alt: #35313f;
+//	fg: #80a9d3;
+//	fg-alt: #8575d6;
+//}
+
+* {
+	bg: #1a1b26;
+	bg-alt: #28344a;
+
+	fg: #a9b1d6;
+	fg-alt: #bb9af7;
+}
+
+window {
+  background-color: @bg;
+  width: 25%;
+}
+
+mainbox {
+  background-color: transparent;
+}
+
+inputbar {
+  padding: 10;
+  background-color: transparent;
+}
+
+prompt {
+  text-color: @fg-alt;
+  background-color: transparent;
+}
+
+entry {
+  text-color: @fg-alt;
+  background-color: transparent;
+}
+
+case-indicator {
+  enabled: false;
+}
+
+listview {
+  background-color: transparent;
+  lines: 10;
+}
+
+element {
+  background-color: transparent;
+}
+
+element-text {
+  padding: 10;
+  text-color: @fg;
+  background-color: transparent;
+}
+
+element selected {
+  background-color: @bg-alt;
+}
+
+element-text selected {
+  text-color: @fg-alt;
+  background-color: transparent;
+}
+
+element-icon {
+  padding: 0 2;
+  size: 30;
+  background-color: transparent;
+}

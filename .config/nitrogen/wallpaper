@@ -1,0 +1,4 @@
+#!/bin/sh
+chosen=$(ls /mnt/data/Linux/Pictures/wallpapers | rofi -show -dmenu -i -window-title "Wallpaper:")
+cp "/mnt/data/Linux/Pictures/wallpapers/$chosen" "/home/ethan/Pictures/wallpapers/wallpaper"
+nitrogen --save --set-zoom-fill "/home/ethan/Pictures/wallpapers/wallpaper"
