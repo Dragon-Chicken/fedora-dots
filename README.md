@@ -14,11 +14,6 @@ other-locations is dots/configs outside of ~/.config
 * Fetch: FastFetch
 * Audio: PipeWire
 * Browser: Zen-Browser
+* Display Manager: LightDM
 
-# others
-* picom
-* dunst
-* nitrogen
-* unclutter
-* xorg
-* git
+# more packages can be found in "packages.md"
